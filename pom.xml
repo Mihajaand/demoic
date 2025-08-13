@@ -12,6 +12,19 @@
 
     <name>demoic</name>
 
+    <distributionManagement>
+        <repository>
+            <id>my-repo</id>
+            <name>My Releases Repository</name>
+            <url>https://mon.serveur.maven/repository/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>my-snapshots</id>
+            <name>My Snapshots Repository</name>
+            <url>https://mon.serveur.maven/repository/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <!-- plugins éventuels ici -->
